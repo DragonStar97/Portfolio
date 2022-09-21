@@ -291,3 +291,15 @@ a:hover{
     justify-content: center;
     color: #1e1e2a;
 }
+
+@media screen and (max-width: 768px){
+    .header-container, h1, h2, .social-media, .social-media a, a:hover,
+    .checkbox-container, .checkbox-container, .checkbox, .checkbox .trace, .checkbox .trace:nth-child, #toggle,
+    .menu, .menu-items, .menu-items ul, .menu-items ul li a,
+    #toggle:checked + .checkbox .trace:nth-child, #toggle:checked + .checkbox, #toggle:checked ~ .menu, #toggle:checked ~ .menu-items,
+    .container, .card-container, .card, .card-text, .card-wrapper, .card-wrapper::before, .card-wrapper h2, .card-wrapper p,
+    .card:hover, .card:hover > .card-wrapper::before, .card:hover > .card-wrapper p, .footer
+    {
+    width: 100%;
+    padding: 0%
+    }
